@@ -1,0 +1,1 @@
+docker run --name squid-1 -d --publish 3128:3128 --volume /srv/docker/squid/cache:/var/spool/squid squid-proxy:update-1 tail -f /dev/null; squid
